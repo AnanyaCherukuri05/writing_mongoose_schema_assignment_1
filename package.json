@@ -2,11 +2,17 @@
   "name": "express-simple-starter",
   "private": true,
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "mongodb": "^6.11.0",
-    "mongoose": "^8.8.3"
-  }
+    "mongoose": "^8.10.1",
+    "nodemon": "^3.1.9"
+  },
+  "version": "1.0.0",
+  "description": "Design a user management system for a web application to handle user authentication, role-based access control, and profile management. The system will use a MongoDB schema to store user data.",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
